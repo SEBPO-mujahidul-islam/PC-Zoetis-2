@@ -1,0 +1,756 @@
+  /* ===================== Custom CSS ===================== */  
+
+  /*====== Page styles ======*/
+
+  /* Hero Section */
+  .citrusStylesSE__pov {
+    position: relative;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel {
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/CitrusAd__Zoetis_pov-bg-dsk.png);
+  }
+  .citrusStylesSE__pov {
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 222px;
+    background-size: cover;  
+  }
+  .pov1 .content-wrapper__product-img img{
+    margin-right: 40px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel 
+  .citrusStylesSE__pov-carousel__inner {
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .citrusStylesSE__pov-carousel__inner--item{
+    min-height: 222px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel 
+  .citrusStylesSE__pov-carousel__inner--item .content-wrapper {
+    z-index: 999;
+    height: 222px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel 
+  .citrusStylesSE__pov-carousel__inner--item .content-wrapper__pov-img {
+    position: absolute;
+    z-index: -1;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel 
+  .citrusStylesSE__pov-carousel__inner--item .content-wrapper__pov-img img {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .pov1 .content-wrapper__logo img {
+    padding-left: 78px;
+    padding-right: 102px;
+  }
+  .pov2 .content-wrapper__logo img {
+    padding-left: 78px;
+    padding-right: 106px;
+  }
+  .pov3 .content-wrapper__logo img {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .content-wrapper__pov-content--middle {
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--heading{
+    color: var(--citrusStylesSE-brown-light);
+    line-height: 31px;
+    margin-top: 30px;
+  }
+  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading{
+    line-height: 25px;
+  }
+  .citrusStylesSE__pov .pov3 .citrusStylesSE__text--heading{
+    margin-top: 48px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--subHead{
+    padding-top: 12px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--disclaimer{
+    padding-top: 10px;
+  }
+  .citrusStylesSE__pov .splide__arrow--prev, .citrusStylesSE__pov .splide__arrow--next {
+    display: none;
+  }
+  .pov2 .citrusStylesSE-button.citrusStylesSE-button-common{
+    margin-top: 9px;
+  }
+  .pov3 .citrusStylesSE-button.citrusStylesSE-button-common{
+    margin-top: 11px;
+  }
+  .pov3 .citrusStylesSE__text--disclaimer{
+    margin-top: 5px;
+  }
+  .pov2 .citrusStylesSE__text--disclaimer{
+    max-width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+/* Hero Section e */
+  
+/* Benefit Section */
+  .citrusStylesSE__benefit{
+    margin-top: 39px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE__text--heading {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE__text--subHead {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 5px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-container{
+    margin-top: 48px;
+    overflow: auto;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE__benefit-box{
+    width: 1122px;  
+    margin: auto;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card {
+    max-width: 259px;
+    min-height: 463px;
+    background-color: rgba(223, 237, 236, 30%);
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card__header{
+    min-height: 259px;
+    padding: 0px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card__title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 38px;
+    height: 25px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card__subTitle {
+    padding: 0 2%;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card__body{
+    height: 205px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    background-color: rgba(100, 201, 209, 10%);
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card img {
+    max-width: 210px;
+    max-height: 210px;
+    -o-object-fit: contain;
+        object-fit: contain;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-button {
+    margin-top: 28px;
+  }
+  .citrusStylesSE__benefit-footer .citrusStylesSE__text--disclaimer{
+    margin-top: 16px;
+  }
+  /* Benefit Section e */
+
+  /* Product Sizes Section */
+  .citrusStylesSE__pSizes{
+    margin-top: 44px;
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE-container{    
+    margin-top: 30px;    
+    overflow: auto;
+  }
+  .citrusStylesSE__pSizes-box{
+    width: 1332px;   
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE__text--heading {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE__text--subHead {
+    margin-top: 6px;
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE-card .citrusStylesSE-card__title{
+    margin-top: 29px;
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE-grid .citrusStylesSE-grid__cell:last-child{
+    margin-left: -18px;
+  }
+  /* Product Sizes Section e */
+
+  /* Product comparision Section */
+  .citrusStylesSE__compare{
+    margin-top: 54px;
+    margin-bottom: 30px;    
+  }
+  .citrusStylesSE__compare .citrusStylesSE__text--heading{
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .citrusStylesSE__compare .citrusStylesSE-container{
+    margin-top: 20px;
+    overflow: auto;
+  }
+  .citrusStylesSE__compare-table{
+    table-layout : fixed;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .citrusStylesSE__compare-table tr{
+    border-bottom: 1px solid #AEAEAE;
+  }
+  .citrusStylesSE__compare-table tr:first-child td img{
+    margin-bottom: -20px;
+  }
+  .citrusStylesSE__compare-table tr:first-child,
+  .citrusStylesSE__compare-table tr:last-child {
+    border-bottom: none;
+  }
+  .citrusStylesSE__compare-table tr td:nth-child(2){
+    border-left: 5px solid rgba(100, 201, 209, 30%);
+    border-right: 5px solid rgba(100, 201, 209, 30%);
+  }
+  .citrusStylesSE__compare-table tr:first-child td,
+  .citrusStylesSE__compare-table tr:last-child td{
+    border: none;
+  }
+  .citrusStylesSE__compare-border-top {
+    border: 5px solid rgba(100, 201, 209, 30%);
+    width: 98.6%;
+    height: 226px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: -1%;
+    margin-bottom: -1px;
+    border-bottom: none;
+  }
+  .citrusStylesSE__compare-border-bottom {
+    border: 5px solid rgba(100, 201, 209, 30%);
+    width: 99%;
+    height: 76px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: -2px;
+    margin-left: -4px;
+    border-top: none;
+  }
+  .citrusStylesSE__compare-table tr th {
+    font-family: 'PetcoCircular-Bold';
+    font-size: 16px;
+    width: 189px;
+    height: 72px;
+    background-color: #D9D9D9;
+  }
+  .citrusStylesSE__compare-table tr td:nth-child(2){
+    width: 262px;
+  }
+  .citrusStylesSE__compare-table tr td:nth-child(2n+3){
+    background-color: rgba(217, 217, 217, 30%);
+  }    
+  .citrusStylesSE__compare-table tr:first-child td,
+  .citrusStylesSE__compare-table tr:nth-child(2) td,
+  .citrusStylesSE__compare-table tr:last-child th,  
+  .citrusStylesSE__compare-table tr:last-child td {
+    background: none;
+  }  
+  .citrusStylesSE__compare-table tr:nth-child(2) td h3,
+  .citrusStylesSE__compare-table tr:nth-child(2) td h4{
+    height: 5px;
+    line-height: 0px;
+  }
+  .citrusStylesSE__compare-table h3, .citrusStylesSE__compare-table h4{
+    font-family: 'PetcoCircular-Bold';
+    color: var(--citrusStylesSE-color-00);
+  }
+  .citrusStylesSE__compare-table h3{
+    font-size: 18px;
+  }
+  .citrusStylesSE__compare-table h4{
+    font-size: 16px;
+  }
+  .citrusStylesSE__compare-table .citrusStylesSE-button.citrusStylesSE-button-common{
+    margin-top: 11px;
+  }
+  .citrusStylesSE__compare-table .citrusStylesSE__text--disclaimer{
+    margin-left: 30px;
+  }
+  /* Product comparision Section e */
+  
+  /* Product Banner Section */
+  .citrusStylesSE__productBanner {
+    background-color: rgba(100,201,209, 25%);
+    height: 312px;    
+    margin-top: 98px;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE__text--heading {
+    font-size: 20px;
+    margin-top: 55px;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE__productBanner-product img {
+    margin-top: -40px;
+    margin-right: 38px;
+    margin-left: 5%;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE__text--subHead {
+    line-height: normal;
+    margin-top: 12px;
+    max-width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE-button{
+    margin-top: 16px;
+  }
+  /* Product Banner Section e */
+
+  /* page footer */
+  .citrusStylesSE__footer {
+    max-width: 91%;
+    margin: 30px auto;
+    line-height: 20px;
+  }
+  /* page footer e */
+
+
+/*========= responsive styles ===========*/
+@media (max-width: 1400px) {
+    .citrusStylesSE_carousel-item .content-wrapper__logo img {
+      padding-left: 50px;
+      padding-right: 50px;
+      max-width: 230px;
+  }
+  .citrusStylesSE_carousel-indicators{
+    left: calc(100% / 2 - 40px);
+  }
+} 
+
+@media (max-width: 1332px) {
+  .citrusStylesSE__pSizes-box {
+    width: 100%;
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE-card img{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1220px) {
+    .citrusStylesSE_carousel-item .content-wrapper__logo img {
+      padding-left: 30px;
+      padding-right: 30px;
+      max-width: 200px;
+  }
+  .citrusStylesSE_carousel-indicators {
+    left: calc(100% / 2 - 15px);
+  }
+
+  .citrusStylesSE__pSizes .citrusStylesSE-grid__cell--gap-50 {
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  } 
+  .citrusStylesSE__pSizes .citrusStylesSE-card .citrusStylesSE-card__title {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .citrusStylesSE__compare-table tr td:nth-child(2) {
+    width: 20%;
+  }
+  .citrusStylesSE__compare-table tr:first-child td img {
+    max-width: 80%;
+  }
+  .citrusStylesSE__compare-table tr td:first-child {
+    width: 160px;
+  }
+  .citrusStylesSE__compare-table tr:nth-child(2) td h3, 
+  .citrusStylesSE__compare-table tr:nth-child(2) td h4 {
+    height: 22px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .citrusStylesSE_carousel-item .content-wrapper__logo img {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 158px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--heading {
+    line-height: 22px;
+    font-size: 20px;
+  }  
+}
+
+@media (max-width: 1122px) {
+  .citrusStylesSE__benefit .citrusStylesSE__benefit-box {
+    width: 100%;
+    margin: auto;
+  }
+
+  .citrusStylesSE-button.citrusStylesSE-button-common {
+    padding: 17.30px 21.26px 13.29px 21.21px;
+  }
+
+  .citrusStylesSE__compare-border-top{
+    width: 98%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .citrusStylesSE__pov .citrusStylesSE__text--heading{
+    margin-top: 15px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--subHead {
+    padding-top: 8px;
+  }
+  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .pov2 .citrusStylesSE__text--disclaimer {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-grid__cell--gap-30{
+    column-gap: 10px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card img{
+    max-width: 150px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card__header{
+    min-height: 200px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card{
+    min-height: 410px;
+  }
+
+  .citrusStylesSE__compare-border-top{
+    margin-left: -1.5%;
+    width: 98%;
+    height: 170px;
+  }
+}
+
+@media (max-width: 921px) {
+  .content-wrapper__logo{
+    padding-top: 22px;
+    padding-left: 22px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+  }
+  .citrusStylesSE__pov .content-wrapper__logo img{
+    padding: 0px;
+    max-width: 132px;
+  }
+  .content-wrapper__pov-content--left{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  .content-wrapper__pov-content--middle{
+    padding-left: 22px;
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading {
+  margin-top: 11px;
+  }
+  .citrusStylesSE__pov .pov3 .citrusStylesSE__text--heading {
+  margin-top: 19px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--subHead {
+  padding-top: 5px;
+  max-width: 70%;
+  }
+  .citrusStylesSE__pov .citrusStylesSE-button.citrusStylesSE-button-common {
+    margin-top: 12px;
+    padding: 0px;
+    background: none;
+    color: #001952;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  .pov2 .citrusStylesSE-button.citrusStylesSE-button-common{
+    margin-top: 3px;
+  }
+  .pov3 .citrusStylesSE-button.citrusStylesSE-button-common{
+    margin-top: 7px;
+  }
+  .content-wrapper__pov-content-cta{
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .citrusStylesSE__compare-border-top{
+    margin-left: -2%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Common max-768  */
+  .m-hide{
+    display: none;
+  }
+  .citrusStylesSE__text--heading{
+    font-size: 20px;
+  }
+  .citrusStylesSE-button.citrusStylesSE-button-common{
+    text-transform: capitalize;
+    text-decoration: underline;
+    background: none;
+    color: var(--citrusStylesSE-primary-navy);
+    margin-top: 5px;
+  }
+  /* Common max-768 e */
+  
+  /* Hero max-768  */
+  .citrusStylesSE__pov .pov1 {
+    background-image: url(images/CitrusAd__Zoetis_pov1-bg-mob.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .citrusStylesSE__pov .pov2 {
+    background-image: url(images/CitrusAd__Zoetis_pov2-bg-mob.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .citrusStylesSE__pov .pov3 {
+    background-image: url(images/CitrusAd__Zoetis_pov3-bg-mob.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel .citrusStylesSE__pov-carousel__inner--item .content-wrapper{
+    min-height: 495px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--subHead {
+    padding-top: 18px;
+  }
+  .citrusStylesSE__pov .pov1 .citrusStylesSE__text--heading {
+    font-size: 25px; 
+    line-height: 31px;
+    max-width: 85%;
+  }
+  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading {
+    font-size: 23px;
+    line-height: 28px;
+    margin-top: 18px;    
+  }
+  .citrusStylesSE_carousel-indicators {
+    left: calc(100% / 2 - 48px);
+  }
+  /*.citrusStylesSE__Hero {
+  
+  /* benefit max-768 */
+  .citrusStylesSE__benefit {
+    margin-top: 29px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE__benefit-box{
+    width: 1330px;
+  }
+  .citrusStylesSE__benefit-box .citrusStylesSE-card{
+    min-height: 463px;
+    max-width: 310px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card__subTitle{
+    padding: 0 10%;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-container {
+    margin-top: 18px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-card__title {
+    font-size: 16px;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE__benefit-footer{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .citrusStylesSE__benefit .citrusStylesSE-button.citrusStylesSE-button-common{
+  padding: 17.30px 61.26px 4.29px 61.21px; 
+  }
+  /* benefit max-768 e */
+
+  /* Product Sizes max-768 */
+  .citrusStylesSE__pSizes-box {
+    width: 1332px;
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE-container .citrusStylesSE-grid {
+    margin-left: 30px;
+  }
+  .citrusStylesSE__pSizes .citrusStylesSE-card .citrusStylesSE-card__title{
+    margin-top: 29px;
+    font-size: 1.125em;
+  }
+  /* Product Sizes max-768 e */
+
+  /* Product comparision Section max-768 */
+  .citrusStylesSE__compare {
+    margin-top: 22px;
+  }
+  .citrusStylesSE__compare .citrusStylesSE-container {
+    margin-top: 27px;
+  }
+  .citrusStylesSE__compare-table {
+    width: 1100px;
+  }
+  .citrusStylesSE__compare-table tr th {
+    font-size: 12px;
+    height: 50px;
+  }
+  .citrusStylesSE__compare-table tr td:nth-child(2) {
+    width: 182px;
+  }
+  .citrusStylesSE__compare-table tr td:first-child {
+    width: 123px;
+  }
+  .citrusStylesSE__compare-table tr:first-child td img {
+    max-width: 82%;
+    max-height: 97px;
+  }
+  .citrusStylesSE__compare-border-top {
+    height: 152px;
+    width: 98.5%;
+}
+  .citrusStylesSE__compare-border-bottom {
+    width: 98.5%;
+    height: 58px;
+    margin-left: -3px;
+    margin-top: -2px;
+  }
+  .citrusStylesSE__compare-table .citrusStylesSE-button.citrusStylesSE-button-common {
+    margin-top: 5px;
+    padding: 16.3px 50.26px 13.29px 50.21px;
+  }
+  .citrusStylesSE__compare-table .citrusStylesSE__text--disclaimer{
+    display: none;
+  }
+  .citrusStylesSE__compare-table .d-hide{
+    margin: 0px auto;
+  }
+  /* Product comparision Section max-767 e */
+  
+  /* Product Banner max-767 */
+  .citrusStylesSE__productBanner {
+    min-height: 345px;
+    margin-top: 5px;
+  }  
+  .citrusStylesSE__productBanner .citrusStylesSE-grid{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE__text--heading {
+    margin-top: 43px;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE__text--subHead {
+    margin-top: 4px;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE__productBanner-product img {
+    margin: 0px;
+    max-width: 90%;
+  }
+  .citrusStylesSE__productBanner-product {
+    text-align: center;
+  }
+  .citrusStylesSE__productBanner .citrusStylesSE-button {
+    margin-top: 0px;
+    padding-top: 14.3px;
+    margin-bottom: 28px;
+  }
+  /* Product Banner max-767 e */
+  
+  /* Footer max-767 */
+  .citrusStylesSE__footer {
+    max-width: 82%;
+    margin-top: 120px;
+    text-align: center;
+  }  
+}
+
+@media (max-width: 700px) {
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel .citrusStylesSE__pov-carousel__inner--item .content-wrapper {
+    min-height: 470px;
+  }
+}
+
+@media (max-width: 650px) {
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel .citrusStylesSE__pov-carousel__inner--item .content-wrapper {
+    min-height: 450px;
+  }
+  .citrusStylesSE__footer {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 525px) {
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel .citrusStylesSE__pov-carousel__inner--item .content-wrapper {
+    min-height: 430px;
+  }
+  .citrusStylesSE__footer  {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 425px) {
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel .citrusStylesSE__pov-carousel__inner--item .content-wrapper {
+    min-height: 390px;
+  }
+  .citrusStylesSE__pov .citrusStylesSE__text--disclaimer {
+    max-width: 75%;
+    margin-left: unset;
+  }
+  .pov3 .citrusStylesSE__text--disclaimer{
+    max-width: 100%;
+    margin-top: 2px;
+  }
+  .citrusStylesSE__footer {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 375px) {
+  .citrusStylesSE__pov .citrusStylesSE__pov-carousel .citrusStylesSE__pov-carousel__inner--item .content-wrapper {
+    min-height: 363px;
+  }
+}
+
+@media (max-width: 374px) {
+  .citrusStylesSE__benefit .citrusStylesSE__text--heading{
+    font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  .citrusStylesSE__footer  {
+    margin-top: 100px;
+  }
+  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+/*========= responsive styles e ===========*/
+
+  /*=============== Page styles =================*/
+  
+  /* ===================== Custom CSS e ===================== */
+  
+  
